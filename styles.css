@@ -158,7 +158,7 @@ nav ul li{
     width: 60%;
 }
 
-/* iphone 15 */
+/* iphone 15pro */
 .section_iphone{
     display: flex;
     background-color: black;
@@ -213,3 +213,483 @@ nav ul li{
     width: 90%;
     padding: 90px 0 80px 0;
 }
+
+/* Iphone 15 */
+.section_iphone15{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 10px 0;
+}
+
+.section_iphone15 .content{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_iphone15 .content .title{
+    font-weight: bolder;
+    font-size: 60px;
+    
+}
+
+.section_iphone15 .content .subtitle{
+    font-weight: light;
+    font-size: 26px;
+}
+
+.section_iphone15 .content button{
+    margin-top: 20px;
+}
+
+.section_iphone15 .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.section_iphone15 .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.section_iphone15 .img_iphone{
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+/* =========== Card =========== */
+/* Grid */
+.img_card{
+    max-width: 40%;
+}
+
+.cards{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item{
+    max-width: 100%;
+    height: 600px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+
+    background-color: antiquewhite;
+}
+
+
+/* Watch */
+.watch_series_9{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch_series_9 .content{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.watch_series_9 .content .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    
+}
+
+.watch_series_9 .content span{
+    padding-left: 15px;
+    color: red;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.watch_series_9 .content .title i{
+    color: white;
+    
+}
+
+.watch_series_9 .content .subtitle{
+    padding-top: 5px;
+    color: white;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.watch_series_9 .content button{
+    margin-top: 20px;
+}
+
+.watch_series_9 .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.watch_series_9 .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.watch_series_9 .img_ws9{
+    width: 100%;
+}
+
+/* ====== */
+.watch_ultra_2{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch_ultra_2 .content{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.watch_ultra_2 .content .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    
+}
+
+.watch_ultra_2 .content span{
+    padding-left: 15px;
+    color: rgb(247,133,84);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+.watch_ultra_2 .content .title i{
+    color: black;
+    
+}
+
+.watch_ultra_2 .content .subtitle{
+    padding-top: 5px;
+    color: black;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.watch_ultra_2 .content button{
+    margin-top: 18px;
+}
+
+.watch_ultra_2 .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.watch_ultra_2 .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.watch_ultra_2 .img_wu2{
+    width: 100%;
+    padding-top: 11%;
+}
+
+
+/* ========= */
+.iPad{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iPad .content{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.iPad .content .title{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+
+.iPad .content .subtitle{
+    color: black;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.iPad .content button{
+    margin-top: 18px;
+}
+
+.iPad .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.iPad .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.iPad .img_iPad{
+    width: 100%;
+    padding-top: 4%;
+}
+
+/* ========== */
+.iPad_Pro{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iPad_Pro .content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.iPad_Pro .content .title{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+
+.iPad_Pro .content .subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: light;
+    font-size: 18px;
+}
+
+.iPad_Pro .content .subtitle .img_m2{
+    margin-left: 5px;
+    width: 10%;
+}
+
+.iPad_Pro .content button{
+    margin-top: 18px;
+}
+
+.iPad_Pro .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.iPad_Pro .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.iPad_Pro .img_iPadPro{
+    width: 100%;
+    padding-top: 4%;
+}
+
+/* ================== */
+.macbook_Pro{
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.macbook_Pro .content{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.macbook_Pro .content .title{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+
+.macbook_Pro .content .subtitle{
+    color: black;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.macbook_Pro .content button{
+    margin-top: 18px;
+}
+
+.macbook_Pro .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.macbook_Pro .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.macbook_Pro .img_mbPro{
+    width: 100%;
+    padding-top: 4%;
+}
+
+
+/* ================= */
+.airPods_Pro{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.airPods_Pro .content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.airPods_Pro .content .title{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+
+.airPods_Pro .content .subtitle{
+    color: white;
+    font-weight: light;
+    font-size: 15px;
+}
+
+.airPods_Pro .content button{
+    margin-top: 18px;
+}
+
+.airPods_Pro .content .btn_THT{
+    color: white;
+    font-weight: lighter;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.airPods_Pro .content .btn_Mua{
+    color: #0071e3;
+    font-weight: lighter;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px ;
+}
+
+.airPods_Pro .img_apPro{
+    width: 70%;
+    padding-top: 1%;
+}
+/* ========= ============== */
