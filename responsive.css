@@ -1,0 +1,317 @@
+/* For small devices */
+@media screen and (max-width: 340px){
+    .header{
+        width: 100%;
+    }
+
+    .nav{
+        max-width: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px 0 50px;
+    }
+
+    .section_content{
+        height:100px;
+        justify-content: center;
+    }
+
+    .section_content p, 
+    .section_content a{
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .section_macbook .img_macbook,
+    .section_iphone15 .img_iphone{
+        margin-top: 45px;
+    }
+
+    .section_macbook .content .title,
+    .section_iphone .content .title,
+    .section_iphone15 .content .title{
+        font-size: 35px;
+    }
+
+    .section_macbook .content .subtitle,
+    .section_iphone .content .subtitle,
+    .section_iphone15 .content .subtitle{
+        font-size: 15px;
+    }
+
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards .item{
+        max-height: 400px;
+    }
+
+    .cards .item .content{
+        margin: 0 15px 0 15px;
+    }
+
+    .slider{
+        max-width: 340px;
+        max-height: 200px;
+    }
+
+    .slide {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .footer_grid{
+        grid-template-columns: repeat(3, 1fr); /* Tạo grid gồm 5 cột */
+    }
+
+    .timCH{
+        font-size: 12px;
+    }
+
+    .end{
+        width: 90%;
+    }
+    
+    .end img{
+        width: 30%;
+    }
+}
+
+
+/* For medium devices */
+@media  screen and (max-width: 576px){
+    .nav{
+        margin: 0 50px 0 50px;
+    }
+
+    .section_content{
+        height:100px;
+        justify-content: center;
+    }
+
+    .section_content p, 
+    .section_content a{
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .section_macbook .img_macbook,
+    .section_iphone15 .img_iphone{
+        margin-top: 45px;
+    }
+
+    .section_macbook .content .title,
+    .section_iphone .content .title,
+    .section_iphone15 .content .title{
+        font-size: 35px;
+    }
+
+    .section_macbook .content .subtitle,
+    .section_iphone .content .subtitle,
+    .section_iphone15 .content .subtitle{
+        font-size: 15px;
+    }
+
+    /* .cards{
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+    .cards .item{
+        max-height: 400px;
+    }
+
+    .cards .item .content{
+        margin: 0 15px 0 15px;
+    }
+
+    .slider{
+        max-width: 340px;
+        max-height: 200px;
+    }
+
+    .slide {
+        max-width: 80%;
+        max-height: 200px;
+    }
+
+    .footer_grid{
+        grid-template-columns: repeat(3, 1fr); /* Tạo grid gồm 5 cột */
+    }
+
+    .timCH{
+        font-size: 12px;
+    }
+
+    .end{
+        width: 90%;
+    }
+    
+    .end img{
+        width: 30%;
+    }  
+}
+
+
+@media screen and (max-width: 767px){
+    .slider{
+        max-width: 100%;
+    }
+
+    .slide {
+        max-width: 100%;
+        max-height: 300px;
+    }
+
+    .footer_grid{
+        grid-template-columns: repeat(3, 1fr); /* Tạo grid gồm 5 cột */
+    }
+}
+
+        /* ---------- NAV ----------- */
+@media screen and (max-width: 965px){
+    .header{
+        position: fixed;
+        background-color: rgba(22, 22, 23, .8);
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+        transition: top 0.3s;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .nav_tool{
+        padding-left: 80%;
+    }
+
+    .nav_toggle{
+        margin-top: 20.5%;
+        margin-right: 20px;
+    }
+
+    .nav{
+        position: relative;
+        align-items: flex-start;
+    }
+
+    .nav .nav_list{
+        flex-direction: column;
+
+    }
+
+    .nav_menu{
+        position: fixed;
+        top: -800%;
+        left: 0;
+        background-color: rgba(22, 22, 23, .99);
+        width: 100%;
+        box-shadow: 0 8px 20px hsla(19, 64%, 24%, .1);
+        padding-block: 3.5rem;
+        transition: top .4s;
+    }
+
+    /* Show menu */
+    .show_menu{
+        top: 0;
+    }
+    
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 2rem;
+    }
+    
+    .nav_close{
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .slider{
+        max-width: 100%;
+    }
+
+    .slide {
+        max-width: 100%;
+        max-height: 300px;
+    }
+}
+
+@media screen and (min-width: 965px){
+    .nav{
+        margin: 0;
+    }
+
+    .nav_close{
+        display: none;
+    }
+
+    .nav_toggle{
+        display: none;
+    }
+
+    .nav_buttons{
+        display: none;
+    }
+}
+
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+    .nav{
+        margin: 0;
+    }
+
+    .cards{
+        max-width: 1400px;
+    } 
+
+    .iPad .img_iPad{
+        padding-top: 7%;
+    }
+
+    .iPad_Pro.img_apPro{
+        padding-top: 0;
+    }
+    
+}
+
+@media screen and (max-width: 1146px) {
+    .nav{
+        padding: 10px;
+        /* justify-content: space-between; */
+    }
+
+    .nav ul li{
+        margin: 0 20px;
+    }
+
+    .nav ul li a{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .apple_TV .slider{
+        max-width: 100%;
+    }
+          
+}
+
+
+@media  screen and (min-width: 1320px) {
+    .footer .timCH{
+        max-width: 60%;
+    }
+
+    .footer .end{
+        max-width: 60%;
+    }
+}

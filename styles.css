@@ -25,13 +25,16 @@ body{
 }
 
 /* logo */
-.logo_img{
-    width: 20px;
-}
+
 
 /* ============================== */
 
 /* Header _ Nav */
+
+.logo_img{
+    width: 20px;
+    margin-top: 5px;
+}
 
 header{
     top: 0;
@@ -75,6 +78,8 @@ nav ul li{
 
 .nav .nav_tool{
     display: flex;
+    margin-top: 6px;
+    margin-left: 5px;
 }
 
 .nav .nav_tool i{
@@ -87,6 +92,15 @@ nav ul li{
 
 .nav .nav_tool .cart{
     margin: 0 20px;
+}
+
+.nav_close{
+    color: white;
+    
+}
+
+.nav_toggle{
+    color: white;
 }
 
 /* =======================main======================= */
@@ -300,8 +314,6 @@ nav ul li{
     margin: 10px;
     text-align: center;
     justify-content: center;
-
-    background-color: antiquewhite;
 }
 
 
@@ -848,3 +860,8 @@ nav ul li{
     margin-top: 5px;
     width: 10%;
 }
+
+
+
+
+
