@@ -28,18 +28,18 @@ function prevSlide() {
 showSlides();
 
 // Nav
-document.addEventListener("DOMContentLoaded", function() {
-  let prevScrollpos = window.scrollY || window.pageYOffset;
-  window.onscroll = function() {
-    let currentScrollPos = window.scrollY || window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("header").style.top = "0";
-    } else {
-      document.getElementById("header").style.top = "-100px"; // Adjust as needed
-    }
-    prevScrollpos = currentScrollPos;
-  }
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//   let prevScrollpos = window.scrollY || window.pageYOffset;
+//   window.onscroll = function() {
+//     let currentScrollPos = window.scrollY || window.pageYOffset;
+//     if (prevScrollpos > currentScrollPos) {
+//       document.getElementById("header").style.top = "0";
+//     } else {
+//       document.getElementById("header").style.top = "-100px"; // Adjust as needed
+//     }
+//     prevScrollpos = currentScrollPos;
+//   }
+// });
 
 // NAV - Show_hide
 /*=============== SHOW MENU ===============*/
@@ -70,6 +70,27 @@ const linkAction = () => {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
+// ==============================
+// Show Nav_searchbar
+const searchbtn = document.getElementById('searchbtn')
+const navSearch = document.getElementById('nav_search')
+const closeSearch = document.getElementById('tempt_close')
+
+const headerDark = document.getElementById('header')
+
+if(searchbtn) {
+    searchbtn.addEventListener('click', ()=>{
+        navSearch.classList.add('show_search_bar')
+        headerDark.classList.add('header_fulldark')
+    })
+}
+
+if(closeSearch){
+    closeSearch.addEventListener('click', ()=>{
+        navSearch.classList.remove('show_search_bar')
+        headerDark.classList.remove('header_fulldark')
+    })   
+}
 
 
 
